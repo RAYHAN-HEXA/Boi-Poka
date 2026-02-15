@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const Navbar = () => {
     const links = 
     <>
-    <li className='mr-3 text-xl' >Home</li>
+    <Link to='/' ><button className=' text-2xl text-green-600 mr-3  ' >Home</button></Link>
     <Link to ='/books' className='mr-3 text-xl' >Listed Books</Link>
     <li className='mr-3 text-xl' >Pages to Read</li>
     </>
